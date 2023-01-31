@@ -15,9 +15,9 @@ function calcular(){
         let a = Number(n3.value)
         let f = (p+t+a)/3
         if(f<6){ //Resultado final 
-            nfres.innerHTML = `<p>O aluno ${name} foi reprovado.</p>`
+            nfres.innerHTML = `<p>O aluno ${name} foi reprovado. A nota final foi <strong>${f}</strong>.</p>`
         } else{
-            nfres.innerHTML = `<p>O aluno ${name} foi aprovado! Boa semana de descanso.`
+            nfres.innerHTML = `<p>O aluno ${name} foi aprovado! A nota final foi <strong>${f}</strong>. Boa semana de descanso!`
         }
     }
 }
