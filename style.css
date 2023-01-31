@@ -1,0 +1,36 @@
+body{
+    background: rgb(78, 159, 252);
+    font: normal 1rem Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 31.25rem;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0.363);
+}
+
+div#Número{
+    display: flex;
+    text-align: left;
+    padding: 8px;
+    justify-content: space-around;
+}
+
+button{
+    padding: 10px 24px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
